@@ -1,0 +1,33 @@
+{
+  "name": "@bongkow/idb",
+  "version": "1.0.1",
+  "description": "Module for easy indexedDB implementation",
+  "main": "dist/index.js",
+  "author": "bongkow",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "devDependencies": {},
+  "files": [
+    "/dist",
+    "package.json"
+  ],
+  "peerDependencies": {
+    "@types/node": "^17.0.24",
+    "@types/react": "^18.0.6",
+    "axios": "^0.26.1",
+    "prettier": "^2.2.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "prettier": "^2.7.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.9.3"
+  }
+}
